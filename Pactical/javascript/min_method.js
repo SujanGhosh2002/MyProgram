@@ -1,0 +1,18 @@
+var y=71.5,z=80.5;
+var x=Math.min(y,z);
+document.write("value: "+y+" & "+z);
+document.write("<br/>");
+document.write("Type: "+typeof y);
+document.write("<br/>");
+document.write("Min: "+x);
+document.write("<br/>");
+document.write("Type: "+typeof x);
+var x=Math.min(-y,-z);
+document.write("<br/>");
+document.write("value: "+(-y)+" & "+(-z));
+document.write("<br/>");
+document.write("Type: "+typeof y);
+document.write("<br/>");
+document.write("Min: "+x);
+document.write("<br/>");
+document.write("Type: "+typeof x);

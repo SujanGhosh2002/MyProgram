@@ -1,0 +1,18 @@
+var y=71.978889000000000000000000;
+var x=Math.floor(y);
+document.write("value: "+y);
+document.write("<br/>");
+document.write("Type: "+typeof y);
+document.write("<br/>");
+document.write("value: "+x);
+document.write("<br/>");
+document.write("Type: "+typeof x);
+var x=Math.floor(-y);
+document.write("<br/>");
+document.write("value: "+(-y));
+document.write("<br/>");
+document.write("Type: "+typeof y);
+document.write("<br/>");
+document.write("value: "+x);
+document.write("<br/>");
+document.write("Type: "+typeof x);

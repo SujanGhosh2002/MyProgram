@@ -1,0 +1,18 @@
+var y=2,z=3;
+var x=Math.pow(y,z);
+document.write("value: "+y+"^"+z);
+document.write("<br/>");
+document.write("Type: "+typeof y);
+document.write("<br/>");
+document.write("Pow: "+x);
+document.write("<br/>");
+document.write("Type: "+typeof x);
+var x=Math.pow(-y,-z);
+document.write("<br/>");
+document.write("value: "+(-y)+"^"+(-z));
+document.write("<br/>");
+document.write("Type: "+typeof y);
+document.write("<br/>");
+document.write("Pow: "+x);
+document.write("<br/>");
+document.write("Type: "+typeof x);

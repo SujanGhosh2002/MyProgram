@@ -1,0 +1,14 @@
+var x=Math.random();
+document.write("Random value: "+x);
+document.write("<br/>");
+document.write("Type: "+typeof x);
+var x=Math.random()*10;
+document.write("<br/>");
+document.write("Random value: "+x);
+document.write("<br/>");
+document.write("Type: "+typeof x);
+var x=Math.random()*10+10;
+document.write("<br/>");
+document.write("Random value: "+x);
+document.write("<br/>");
+document.write("Type: "+typeof x);

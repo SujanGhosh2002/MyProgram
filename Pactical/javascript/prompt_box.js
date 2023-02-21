@@ -1,0 +1,1 @@
+prompt("This is Prompt Box.");

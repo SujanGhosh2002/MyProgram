@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style>
+        #slider {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: left 0.5s;
+}
+
+#prev, #next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+}
+
+#prev {
+  left: 0;
+}
+
+#next {
+  right: 0;
+}
+    </style>
+</head>
+<body>
+    <div id="slider">
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+      </div>
+      <script>
+        const slides = document.querySelectorAll('.slide');
+const prev = document.querySelector('#prev');
+const next = document.querySelector('#next');
+let index = 0;
+
+slides[index].style.left = 0;
+
+prev.addEventListener('click', () => {
+  slides[index].style.left = '-500px';
+  index = (index === 0) ? slides.length - 1 : index - 1;
+  slides[index].style.left = 0;
+});
+
+next.addEventListener('click', () => {
+  slides[index].style.left = '500px';
+  index = (index === slides.length - 1) ? 0 : index + 1;
+  slides[index].style.left = 0;
+});
+      </script>
+</body>
+</html> -->

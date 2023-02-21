@@ -1,0 +1,12 @@
+body{
+    background-image: url("photo/computer.jfif");
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: inherit; */
+    /* background-repeat: initial; */
+    /* background-repeat: round; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat:space; */
+    /* background-repeat: unset; */
+}

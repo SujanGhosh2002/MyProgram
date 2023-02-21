@@ -1,0 +1,10 @@
+var x="Sujan Ghosh";
+console.time("test");
+console.log(x);
+console.error(x);
+console.info(x);
+console.assert(x);
+console.error(["Suhan", "Suman", "Subham"]);
+console.table(["Suhan", "Suman", "Subham"]);
+console.warn("Something is wrong");
+console.timeEnd("test");

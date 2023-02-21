@@ -1,0 +1,8 @@
+body{
+    background-image: url("photo/computer.jfif");
+    /* background-size: auto; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-size: 500px; */
+    background-size: 500px 500px;
+}

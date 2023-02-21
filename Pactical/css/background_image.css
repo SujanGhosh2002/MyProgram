@@ -1,0 +1,7 @@
+body{
+    background-image: url("photo/computer.jfif");
+    /* background-image: url("photo/computer.jfif"),url("photo/jharna.png"); */
+    /* background-image: url("photo/momo.jpeg"),url("photo/samosa.jpeg"),url("photo/jalebi.jpeg");
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 400px,600px,800px; */
+}

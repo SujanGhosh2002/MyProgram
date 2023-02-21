@@ -1,0 +1,12 @@
+var x=25;
+var x=50;
+x=75;
+let y=25;
+// let y=50;
+y=75;
+const z=25;
+// const z=50;
+// z=75;
+document.write("var: ",x);            
+document.write("<br/>let: ",y);
+document.write("<br/>const: ",z);

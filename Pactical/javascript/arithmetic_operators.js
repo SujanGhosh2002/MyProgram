@@ -1,0 +1,16 @@
+var num=25;num1=50,num2=75;
+document.write("Addtion: "+(num1+num2)+"<br/>");
+document.write("Subtraction: "+(num1-num2)+"<br/>");
+document.write("Multiplication: "+(num1*num2)+"<br/>");
+document.write("Exponentiation: "+(num1**num2)+"<br/>");
+document.write("Divition: "+(num1/num2)+"<br/>");
+document.write("Remainder: "+(num1%num2)+"<br/>");
+document.write("Number: "+(num)+"<br/>");
+document.write("Pre Incriment: "+(num++)+"<br/>");
+document.write("Number: "+(num)+"<br/>");
+document.write("Pre Decriment: "+(num--)+"<br/>");
+document.write("Number: "+(num)+"<br/>");
+document.write("post Incriment: "+(++num)+"<br/>");
+document.write("Number: "+(num)+"<br/>");
+document.write("post Decriment: "+(--num)+"<br/>");
+document.write("Number: "+(num)+"<br/>");

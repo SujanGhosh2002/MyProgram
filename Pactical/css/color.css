@@ -1,0 +1,25 @@
+h1{
+    color: red;
+    background-color: blue;
+    border: 5px solid green;
+}
+h2{
+    color: rgba(255, 0, 0, .5);
+    background-color: rgba(0, 0, 255, .5);
+    border: 5px solid rgba(0, 128, 0, .5);
+}
+h3{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 255);
+    border: 5px solid rgb(0, 128, 0);
+}
+h4{
+    color: hsl(0, 100%, 50%);
+    background-color: hsl(240, 100%, 50%);
+    border: 5px solid hsl(120, 100%, 25%);
+}
+h5{
+    color: hwb(0 0% 0%);
+    background-color: hwb(240 0% 0%);
+    border: 5px solid hwb(120 0% 50%);
+}
